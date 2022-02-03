@@ -1,10 +1,6 @@
 function load_json{
     param($file)
-    try{
-        return Get-Content -raw -path $file -ErrorAction Ignore | convertfrom-json 
-    }catch{
-        return $null
-    }
+    return Get-Content -raw -path $file -ErrorAction Ignore | convertfrom-json 
 }
 
 function write-enpointname{
