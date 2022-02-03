@@ -5,7 +5,7 @@ This repo is a tool to check configuration of HCX cloud connectors and thier ser
 
 `.\check.ps1 -hcxserver <HCX IP> [-exrCheck $true|$false]`
 
-If the envionrment is connected via an express route setting -exrCheck $true will request the express route resource group and name for the express route that connects from on premises to Azure.  Connect-AzAccount must already be run and connected to the Azure envionrment with the express route.
+If the envionrment is connected via an express route setting -exrCheck $true will request the express route resource group and name for the express route that connects from on premises to Azure.  Connect-AzAccount must already be run and connected to the Azure envionrment with the express route.  All commands are read only.
 
 output.zip will be generated
 
