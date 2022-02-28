@@ -1,4 +1,4 @@
-# HCX Health Checker
+# HCX Health Analyzer
 This repo is a tool to check configuration of HCX cloud connectors and thier service meshes.  It will collect data, output it to json, and compress the files.  The next part of the tool will read the data and produce a configuration report.  
 
 ## Requirements
