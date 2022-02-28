@@ -1,2 +1,5 @@
 *.json
 *.zip
+.gitignore
+cloudCheck.ps1
+vCenterCheck.ps1
