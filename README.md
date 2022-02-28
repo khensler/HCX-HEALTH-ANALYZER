@@ -1,6 +1,13 @@
 # HCX Health Checker
 This repo is a tool to check configuration of HCX cloud connectors and thier service meshes.  It will collect data, output it to json, and compress the files.  The next part of the tool will read the data and produce a configuration report.  
 
+## Requirements
+
+VMware Powercil must be installed with a version supporting HCX connetions (11.2.0 or higher)
+
+Installation from a powershell prompt:
+`Install-Module Vmware.powercli -scope currentuser`
+
 ## Collection
 
 `.\check.ps1 -hcxserver <HCX IP> [-exrCheck $true|$false]`
