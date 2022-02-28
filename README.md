@@ -6,7 +6,7 @@ This repo is a tool to check configuration of HCX cloud connectors and thier ser
 VMware Powercil must be installed with a version supporting HCX connetions (11.2.0 or higher)
 
 Installation from a powershell prompt:
-`Install-Module Vmware.powercli -scope currentuser`
+`Install-Module VMware.PowerCli -scope CurrentUser`
 
 ## Collection
 
