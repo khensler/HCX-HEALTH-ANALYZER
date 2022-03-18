@@ -192,8 +192,11 @@ function check-exr{
 }
 
 
-
-expand-archive -path ".\output.zip" -destinationpath ".\" -force
+$fname = ".\output"
+if ($args[0]){
+    $fname = $args[0]
+}
+expand-archive -path $fname -destinationpath ".\" -force
 
 Write-host "Checking Site:`t`t" -nonewline
 write-host (load_json(".\site.json")).endpointname -ForegroundColor cyan
